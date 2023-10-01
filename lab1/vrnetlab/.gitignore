@@ -1,0 +1,16 @@
+.vscode
+.idea
+venv
+*.qcow2
+*.vmdk
+*.iso
+
+.DS_Store
+*/.DS_Store
+
+# These are files that get built by make and should not be checked in to the repo
+**/healthcheck.py
+**/vrnetlab.py
+# Still allow for the common python scripts
+!common/healthcheck.py
+!common/vrnetlab.py

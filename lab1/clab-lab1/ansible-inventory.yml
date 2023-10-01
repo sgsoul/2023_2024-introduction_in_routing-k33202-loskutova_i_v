@@ -1,0 +1,18 @@
+all:
+  children:
+    linux:
+      hosts:
+        PC1:
+          ansible_host: 172.20.20.7
+        PC2:
+          ansible_host: 172.20.20.5
+    vr-ros:
+      hosts:
+        R01.TEST:
+          ansible_host: 172.20.20.2
+        SW01.L3.01.TEST:
+          ansible_host: 172.20.20.3
+        SW02.L3.01.TEST:
+          ansible_host: 172.20.20.6
+        SW02.L3.02.TEST:
+          ansible_host: 172.20.20.4
