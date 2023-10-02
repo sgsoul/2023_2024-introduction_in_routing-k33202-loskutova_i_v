@@ -12,9 +12,9 @@ Author: Loskutova Irina
 
 Lab: Lab1
 
-Date of create: 
+Date of create: 05.09.2023
 
-Date of finished:
+Date of finished: 02.10.2023
 
 # Отчёт по лабораторной работе #1
 
@@ -42,3 +42,6 @@ Date of finished:
 
 ![Снимок экрана от 2023-10-01 20-24-21](https://github.com/sgsoul/2023_2024-introduction_in_routing-k33202-loskutova_i_v/assets/93263659/1a68157a-af9c-4704-9068-af63455920e2)
 
+## Вывод
+
+В ходе данной ЛР я познакомилась с инструментом ContainerLab, развернула тестовую сеть связи, настроила оборудование на базе Linux и RouterOS.
