@@ -43,6 +43,10 @@ Date of finished:
 
 ## Проверка доступности
 
+![Снимок экрана 2023-10-29 012607](https://github.com/sgsoul/2023_2024-introduction_in_routing-k33202-loskutova_i_v/assets/93263659/01e8626e-ec60-40d6-9812-53c2ea208cd7)
+
+![Снимок экрана 2023-10-29 012619](https://github.com/sgsoul/2023_2024-introduction_in_routing-k33202-loskutova_i_v/assets/93263659/73d6c4ac-9e43-45a6-b856-a16f3383d42a)
+
 
 ## Вывод
 
