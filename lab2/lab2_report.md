@@ -25,6 +25,8 @@ Date of finished:
 
 ## Топология полученной сети
 
+![Пустой диаграммой](https://github.com/sgsoul/2023_2024-introduction_in_routing-k33202-loskutova_i_v/assets/93263659/7197c481-2eb8-41ec-9675-a7852a8dc53a)
+
 
 ## Конфигурация устройств
 
