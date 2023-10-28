@@ -36,7 +36,8 @@ Date of finished:
 
 ![Снимок экрана 2023-10-29 005739](https://github.com/sgsoul/2023_2024-introduction_in_routing-k33202-loskutova_i_v/assets/93263659/28bb4ae5-665c-4d8e-84d0-40de4a3f0042)
 
-![Снимок экрана 2023-10-29 010353](https://github.com/sgsoul/2023_2024-introduction_in_routing-k33202-loskutova_i_v/assets/93263659/a957460b-66f3-4058-8bba-988a35769c98)
+![Снимок экрана 2023-10-29 012930](https://github.com/sgsoul/2023_2024-introduction_in_routing-k33202-loskutova_i_v/assets/93263659/358b95fc-572e-4e35-b58c-70b617661db5)
+
 
 ![Снимок экрана 2023-10-29 010528](https://github.com/sgsoul/2023_2024-introduction_in_routing-k33202-loskutova_i_v/assets/93263659/0ae53ac3-0df1-4d1f-b565-8b5b1f4dba83)
 
