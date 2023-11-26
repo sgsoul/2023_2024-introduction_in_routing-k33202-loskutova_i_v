@@ -25,7 +25,7 @@ Date of finished: 27/11/2023
 
 ## Топология полученной сети
 
-![2](https://github.com/sgsoul/2023_2024-introduction_in_routing-k33202-loskutova_i_v/assets/93263659/cda37910-79b2-4c9f-8c9d-fa376981ec15)
+![Untitled Diagram drawio](https://github.com/sgsoul/2023_2024-introduction_in_routing-k33202-loskutova_i_v/assets/93263659/46b680b9-8ad0-43db-ac1f-97ea676b9ad1)
 
 
 ## Настройка OSPF на RO1.NY
