@@ -67,6 +67,7 @@ Date of finished: 27/11/2023
 ## Проверка подключения
 
 Выведем таблицы маршрутизации для роутеров RO1.NY и RO1.LBN, а также выполним трассировку от R01.SPB до R01.NY:
+
 ![ipNY](https://github.com/sgsoul/2023_2024-introduction_in_routing-k33202-loskutova_i_v/assets/93263659/b5faa79b-13a1-4ebc-b7c3-ce1efc26598a)
 
 ![IPRTLBN](https://github.com/sgsoul/2023_2024-introduction_in_routing-k33202-loskutova_i_v/assets/93263659/21764353-f7e9-41cb-80a7-4cd60df86968)
