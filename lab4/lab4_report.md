@@ -115,8 +115,8 @@ set name=R01.SPB
 add name=Lo
 add name=VPLS
 /interface vpls
-add disabled=no l2mtu=1500 mac-address=02:2D:B2:04:58:B5 name=vpls1 remote-peer=1.1.1.1 vpls-id=10:0
-add disabled=no l2mtu=1500 mac-address=02:07:F9:C5:13:11 name=vpls2 remote-peer=6.6.6.6 vpls-id=10:0
+add disabled=no l2mtu=1500 mac-address=02:2D:B2:04:58:B5 name=vpls1 remote-peer=10.0.10.1 vpls-id=10:0
+add disabled=no l2mtu=1500 mac-address=02:07:F9:C5:13:11 name=vpls2 remote-peer=10.0.13.1 vpls-id=10:0
 /interface wireless security-profiles
 set [ find default=yes ] supplicant-identity=MikroTik
 /routing bgp instance
