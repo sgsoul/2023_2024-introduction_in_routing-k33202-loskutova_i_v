@@ -39,13 +39,13 @@ add name=Lo
 /interface wireless security-profiles
 set [ find default=yes ] supplicant-identity=MikroTik
 /routing ospf instance
-set [ find default=yes ] router-id=3.3.3.3
+set [ find default=yes ] router-id=10.0.14.1
 /ip address
 add address=172.31.255.30/30 interface=ether1 network=172.31.255.28
-add address=172.10.2.2/30 interface=ether2 network=172.10.2.0
-add address=3.3.3.3 interface=Lo network=3.3.3.3
-add address=172.10.5.1/30 interface=ether3 network=172.10.5.0
-add address=172.10.4.1/30 interface=ether4 network=172.10.4.0
+add address=172.40.40.18/30 interface=ether2 network=172.40.40.0
+add address=10.0.14.1 interface=Lo network=10.0.14.1
+add address=172.40.40.14/30 interface=ether3 network=172.40.40.0
+add address=172.40.40.21/30 interface=ether4 network=172.40.40.0
 /ip dhcp-client
 add disabled=no interface=ether1
 /mpls ldp
@@ -55,11 +55,11 @@ add interface=ether2
 add interface=ether3
 add interface=ether4
 /routing bgp peer
-add address-families=ip,l2vpn,l2vpn-cisco,vpnv4 name=peer1 remote-address=2.2.2.2 remote-as=65530 \
+add address-families=ip,l2vpn,l2vpn-cisco,vpnv4 name=peer1 remote-address=10.0.11.1 remote-as=65530 \
     route-reflect=yes update-source=Lo
-add address-families=ip,l2vpn,l2vpn-cisco,vpnv4 name=peer2 remote-address=5.5.5.5 remote-as=65530 \
+add address-families=ip,l2vpn,l2vpn-cisco,vpnv4 name=peer2 remote-address=10.0.12.1 remote-as=65530 \
     route-reflect=yes update-source=Lo
-add address-families=ip,l2vpn,l2vpn-cisco,vpnv4 name=peer3 remote-address=4.4.4.4 remote-as=65530 \
+add address-families=ip,l2vpn,l2vpn-cisco,vpnv4 name=peer3 remote-address=10.0.15.1 remote-as=65530 \
     update-source=Lo
 /routing ospf network
 add area=backbone
@@ -76,12 +76,12 @@ set [ find default=yes ] supplicant-identity=MikroTik
 /routing bgp instance
 set default router-id=4.4.4.4
 /routing ospf instance
-set [ find default=yes ] router-id=4.4.4.4
+set [ find default=yes ] router-id=10.0.15.1
 /ip address
 add address=172.31.255.30/30 interface=ether1 network=172.31.255.28
-add address=4.4.4.4 interface=Lo network=4.4.4.4
-add address=172.10.5.2/30 interface=ether2 network=172.10.5.0
-add address=192.168.10.1/30 interface=ether3 network=192.168.10.0
+add address=10.0.15.1 interface=Lo network=10.0.15.1
+add address=172.40.40.2/30 interface=ether2 network=172.40.40.0
+add address=192.168.66.21/30 interface=ether3 network=192.168.66.20
 /ip dhcp-client
 add disabled=no interface=ether1
 /ip route vrf
@@ -94,7 +94,7 @@ add interface=ether2
 /routing bgp instance vrf
 add redistribute-connected=yes routing-mark=VRF_DEVOPS
 /routing bgp peer
-add address-families=ip,l2vpn,l2vpn-cisco,vpnv4 name=peer1 remote-address=3.3.3.3 remote-as=65530 \
+add address-families=ip,l2vpn,l2vpn-cisco,vpnv4 name=peer1 remote-address=10.0.14.1 remote-as=65530 \
     update-source=Lo
 /routing ospf network
 add area=backbone
@@ -120,18 +120,18 @@ add disabled=no l2mtu=1500 mac-address=02:07:F9:C5:13:11 name=vpls2 remote-peer=
 /interface wireless security-profiles
 set [ find default=yes ] supplicant-identity=MikroTik
 /routing bgp instance
-set default router-id=4.4.4.4
+set default router-id=10.0.15.1
 /routing ospf instance
-set [ find default=yes ] router-id=4.4.4.4
+set [ find default=yes ] router-id=10.0.15.1
 /interface bridge port
 add bridge=VPLS interface=ether3
 add bridge=VPLS interface=vpls1
 add bridge=VPLS interface=vpls2
 /ip address
 add address=172.31.255.30/30 interface=ether1 network=172.31.255.28
-add address=4.4.4.4 interface=Lo network=4.4.4.4
-add address=172.10.5.2/30 interface=ether2 network=172.10.5.0
-add address=192.168.10.1/30 interface=ether3 network=192.168.10.0
+add address=10.0.15.1 interface=Lo network=10.0.15.1
+add address=172.40.40.22/30 interface=ether2 network=172.40.40.0
+add address=192.168.66.21/30 interface=ether3 network=192.168.66.0
 /ip dhcp-client
 add disabled=no interface=ether1
 /mpls ldp
@@ -139,7 +139,7 @@ set enabled=yes
 /mpls ldp interface
 add interface=ether2
 /routing bgp peer
-add address-families=ip,l2vpn,l2vpn-cisco,vpnv4 name=peer1 remote-address=3.3.3.3 remote-as=65530 \
+add address-families=ip,l2vpn,l2vpn-cisco,vpnv4 name=peer1 remote-address=10.0.14.1 remote-as=65530 \
     update-source=Lo
 /routing ospf network
 add area=backbone
