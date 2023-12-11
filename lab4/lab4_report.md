@@ -106,8 +106,6 @@ set name=R01.SPB
 
 ![2](https://github.com/sgsoul/2023_2024-introduction_in_routing-k33202-loskutova_i_v/assets/93263659/9c773018-a56a-4060-b042-57b0a10584a3)
 
-![5](https://github.com/sgsoul/2023_2024-introduction_in_routing-k33202-loskutova_i_v/assets/93263659/d0556d87-bcc3-434b-bc4f-47709ccba724)
-
 
 ## Настройка VPLS
 
