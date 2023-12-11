@@ -34,7 +34,8 @@ Date of finished:
 
 # RO1.HKI
 
-`add name=Lo
+```
+add name=Lo
 /interface wireless security-profiles
 set [ find default=yes ] supplicant-identity=MikroTik
 /routing ospf instance
@@ -63,11 +64,13 @@ add address-families=ip,l2vpn,l2vpn-cisco,vpnv4 name=peer3 remote-address=4.4.4.
 /routing ospf network
 add area=backbone
 /system identity
-set name=R01.HKI`
+set name=R01.HKI
+```
 
 # RO1.SPB
 
-`add name=Lo
+```
+add name=Lo
 /interface wireless security-profiles
 set [ find default=yes ] supplicant-identity=MikroTik
 /routing bgp instance
@@ -96,24 +99,22 @@ add address-families=ip,l2vpn,l2vpn-cisco,vpnv4 name=peer1 remote-address=3.3.3.
 /routing ospf network
 add area=backbone
 /system identity
-set name=R01.SPB`
-
-
-
-
-
+set name=R01.SPB
+```
 
 ## Проверка подключения
 
 ![2](https://github.com/sgsoul/2023_2024-introduction_in_routing-k33202-loskutova_i_v/assets/93263659/9c773018-a56a-4060-b042-57b0a10584a3)
 
-![3](https://github.com/sgsoul/2023_2024-introduction_in_routing-k33202-loskutova_i_v/assets/93263659/f7243026-c4e0-4b2b-8467-d736e4d97ea6)
+![5](https://github.com/sgsoul/2023_2024-introduction_in_routing-k33202-loskutova_i_v/assets/93263659/d0556d87-bcc3-434b-bc4f-47709ccba724)
+
 
 ## Настройка VPLS
 
 # RO1.SPB
 
-`add name=Lo
+```
+add name=Lo
 add name=VPLS
 /interface vpls
 add disabled=no l2mtu=1500 mac-address=02:2D:B2:04:58:B5 name=vpls1 remote-peer=1.1.1.1 vpls-id=10:0
@@ -145,7 +146,13 @@ add address-families=ip,l2vpn,l2vpn-cisco,vpnv4 name=peer1 remote-address=3.3.3.
 /routing ospf network
 add area=backbone
 /system identity
-set name=R01.SPB`
+set name=R01.SPB
+```
+
+## Проверка подключения
+
+![4](https://github.com/sgsoul/2023_2024-introduction_in_routing-k33202-loskutova_i_v/assets/93263659/2f4caaef-e452-4129-929e-b124e19938c7)
+
 
 ## Вывод
 
