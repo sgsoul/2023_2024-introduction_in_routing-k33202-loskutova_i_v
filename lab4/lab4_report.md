@@ -18,7 +18,7 @@ Date of finished:
 
 # Отчёт по лабораторной работе #4
 
-## [Файл](https://github.com/sgsoul/2023_2024-introduction_in_routing-k33202-loskutova_i_v/blob/main/lab3/topo4.clab.yml) для развертывания тестовой сети
+## [Файл](https://github.com/sgsoul/2023_2024-introduction_in_routing-k33202-loskutova_i_v/blob/main/lab4/topo4.clab.yml) для развертывания тестовой сети
 
 ![1](https://github.com/sgsoul/2023_2024-introduction_in_routing-k33202-loskutova_i_v/assets/93263659/aec68083-ab00-490f-8338-98dc6e043e48)
 
