@@ -25,7 +25,7 @@ Date of finished:
 
 ## Топология полученной сети
 
-
+![7](https://github.com/sgsoul/2023_2024-introduction_in_routing-k33202-loskutova_i_v/assets/93263659/b86251f5-d371-423a-b9cc-4b1c78581cc4)
 
 
 ## Настройка VRF
