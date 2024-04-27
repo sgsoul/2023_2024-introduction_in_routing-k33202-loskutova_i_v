@@ -1,4 +1,6 @@
-#### 2023 - 2024 - introduction in routing
+## 2023 - 2024 - introduction in routing
+### MikroTik RouterOS 6.47.9
+
 
 ### [Установка ContainerLab и развертывание тестовой сети связи](https://github.com/itmo-ict-faculty/introduction-in-routing/blob/main/docs/education/labs2023_2024/lab1/lab1.md)
 
